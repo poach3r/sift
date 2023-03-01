@@ -1,0 +1,7 @@
+Dependencies:
+xdeb
+gawk
+sed
+w3m
+
+To change mirror location, modify line 4.
