@@ -4,4 +4,12 @@ gawk
 sed
 w3m
 
+Installation:
+git clone https://github.com/poach3r/sift/
+chmod +x ~/sift/sift.sh
+sudo mv ~/sift/sift.sh /usr/local/bin
+
+Usage:
+sift [PACKAGE]
+
 To change mirror location, modify line 4.
