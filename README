@@ -3,15 +3,13 @@ xdeb
 gawk
 sed
 w3m
-gcc
 
 Installation:
 git clone https://github.com/poach3r/sift/
-chmod -R +x ~/sift/
+chmod +x ~/sift/sift.sh
 sudo mv ~/sift/sift.sh /usr/bin
-sudo gcc -o /usr/bin/sift ~/sift/sift.c
 
 Usage:
-sift [PACKAGE]
+sift.sh [PACKAGE]
 
 To change mirror location, modify line 4.
