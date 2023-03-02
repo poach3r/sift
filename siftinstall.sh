@@ -2,4 +2,4 @@
 
 sudo mv ~/sift/sift.sh /usr/bin
 
-gcc -o /usr/bin/sift ~/sift/sift.c
+sudo gcc -o /usr/bin/sift ~/sift/sift.c
