@@ -7,7 +7,7 @@ w3m
 Installation:
 git clone https://github.com/poach3r/sift/
 chmod +x ~/sift/sift.sh
-sudo mv ~/sift/sift.sh /usr/local/bin
+sudo mv ~/sift/sift.sh /usr/bin
 
 Usage:
 sift [PACKAGE]
