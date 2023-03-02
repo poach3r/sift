@@ -10,6 +10,6 @@ chmod +x ~/sift/sift.sh
 sudo mv ~/sift/sift.sh /usr/bin
 
 Usage:
-sift [PACKAGE]
+sift.sh [PACKAGE]
 
 To change mirror location, modify line 4.
