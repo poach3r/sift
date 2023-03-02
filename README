@@ -16,7 +16,6 @@ sudo sift.sh [PACKAGE]
 To change mirror location, modify line 4.
 
 Plans:
-1. Notify user when theres no packages found instead of displaying random $$$$
-2. Create an actual command
-3. Easy Mirror Changing
-4. Non-Free repo access
+1. Create an actual command
+2. Easy Mirror Changing
+3. Non-Free repo access
