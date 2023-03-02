@@ -1,4 +1,5 @@
 Dependencies:
+wget
 xdeb
 gawk
 sed
