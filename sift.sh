@@ -13,6 +13,6 @@ echo "Downloading..."
 wget -O /tmp/package.deb $url/$pacname &> /dev/null #download deb package to /tmp/
 echo "Converting to Void Package..."
 xdeb -Sde /tmp/package.deb &> /dev/null #convert deb package to void package
-xbps-install -R binpkgs $(xdeb -Sde /tmp/package.deb | sed 's/.....$//' ) #install created void package
+xbps-install -R binpkgs $(xdeb -Sde /tmp/package.deb | awk '{print $7}' | sed 's/.....$//' ) #install created void package
 rm /tmp/package.deb #delete deb package
 echo "Done!"
