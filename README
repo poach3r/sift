@@ -15,8 +15,9 @@ sudo sift.sh [PACKAGE]
 
 To change mirror location, modify line 4.
 
-Plans:
+Roadmap:
 1. Create an actual command
 2. Easy Mirror Changing
 3. Non-Free repo access
-4. Decrease dependancies & switch to curl
+4. Decrease dependencies & switch to curl
+5. Auto completing package names (ie no more copy pasting the real package name)
